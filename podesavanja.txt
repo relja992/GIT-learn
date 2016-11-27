@@ -1,0 +1,7 @@
+echo.>myfile.txt //kreiranje fajla
+
+subl filaname //otvaranje fajla u sublime-u
+
+git status
+git add fileName
+git commit -m "Message to be storedwith commit"
