@@ -2,6 +2,9 @@ echo.>myfile.txt //kreiranje fajla
 
 subl filaname //otvaranje fajla u sublime-u
 
+git init //pravljenje repozitorijuma
 git status
-git add fileName
+git add fileName //pracenje fajla
+git add . //pracenje svih fajlova
 git commit -m "Message to be storedwith commit"
+git log
