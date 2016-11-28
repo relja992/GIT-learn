@@ -1,0 +1,17 @@
+echo.>myfile.txt //kreiranje fajla
+
+subl filaname //otvaranje fajla u sublime-u
+
+git init //pravljenje repozitorijuma
+git status
+git add fileName //pracenje fajla
+git add . //pracenje svih fajlova
+git commit -m "Message to be storedwith commit"
+git log
+
+//podesavanje ssh dane moram da selogujem pri svakom push-u
+ssh-keygen -t rsa -b 4096 -C "your_email@example.com" //sifra kao i za login
+eval "$(ssh-agent -s)" //11000
+ssh-add ~/.ssh/id_rsa
+clip < ~/.ssh/id_rsa.pub //za kopiranje public key-a prilikom pravljenja ssh-a
+
