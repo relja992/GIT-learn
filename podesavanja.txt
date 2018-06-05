@@ -16,3 +16,4 @@ ssh-add ~/.ssh/id_rsa
 clip < ~/.ssh/id_rsa.pub //za kopiranje public key-a prilikom pravljenja ssh-a
 
 feature_1
+ drugi komit
