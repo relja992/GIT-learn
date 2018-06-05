@@ -3,3 +3,5 @@ Ovo je drugi fajl
 izmena
 
 master 2
+
+master 3
