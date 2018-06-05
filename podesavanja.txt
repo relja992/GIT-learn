@@ -15,8 +15,4 @@ eval "$(ssh-agent -s)" //11000
 ssh-add ~/.ssh/id_rsa
 clip < ~/.ssh/id_rsa.pub //za kopiranje public key-a prilikom pravljenja ssh-a
 
-<<<<<<< HEAD
-тест
-=======
-feature_1
->>>>>>> feature_1
+test
